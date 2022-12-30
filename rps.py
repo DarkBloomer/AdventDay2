@@ -9,7 +9,7 @@ with open("input.txt", "r") as file:
 			#add three if round end in draw
 			if = line[0] == 'X':
 				roundSum += 3	
-			#
+			#if player wins, add 6
 			elif line[0] == 'Z':
 				roundSum += 6	
 
